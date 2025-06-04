@@ -240,6 +240,122 @@ namespace esphome
             {
                 current_l3 = sensor;
             }
+
+            sensor::Sensor *get_sensor_cumulative_active_import()
+            {
+                return cumulative_active_import;
+            }
+            sensor::Sensor* get_sensor_cumulative_active_export()
+            {
+                return cumulative_active_export;
+            }
+
+            sensor::Sensor* get_sensor_cumulative_reactive_import()
+            {
+                return cumulative_reactive_import;
+            }
+            sensor::Sensor* get_sensor_cumulative_reactive_export()
+            {
+                return cumulative_reactive_export;
+            }
+
+            sensor::Sensor* get_sensor_momentary_active_import()
+            {
+                return momentary_active_import;
+            }
+            sensor::Sensor* get_sensor_momentary_active_export()
+            {
+                return momentary_active_export;
+            }
+
+            sensor::Sensor* get_sensor_momentary_reactive_import()
+            {
+                return momentary_reactive_import;
+            }
+            sensor::Sensor* get_sensor_momentary_reactive_export()
+            {
+                return momentary_reactive_export;
+            }
+
+            sensor::Sensor* get_sensor_momentary_active_import_l1()
+            {
+                return momentary_active_import_l1;
+            }
+            sensor::Sensor* get_sensor_momentary_active_export_l1()
+            {
+                return momentary_active_export_l1;
+            }
+
+            sensor::Sensor* get_sensor_momentary_active_import_l2()
+            {
+                return momentary_active_import_l2;
+            }
+            sensor::Sensor* get_sensor_momentary_active_export_l2()
+            {
+                return momentary_active_export_l2;
+            }
+
+            sensor::Sensor* get_sensor_momentary_active_import_l3()
+            {
+                return momentary_active_import_l3;
+            }
+            sensor::Sensor* get_sensor_momentary_active_export_l3()
+            {
+                return momentary_active_export_l3;
+            }
+
+            sensor::Sensor* get_sensor_momentary_reactive_import_l1()
+            {
+                return momentary_reactive_import_l1;
+            }
+            sensor::Sensor* get_sensor_momentary_reactive_export_l1()
+            {
+                return momentary_reactive_export_l1;
+            }
+
+            sensor::Sensor* get_sensor_momentary_reactive_import_l2()
+            {
+                return momentary_reactive_import_l2;
+            }
+            sensor::Sensor* get_sensor_momentary_reactive_export_l2()
+            {
+                return momentary_reactive_export_l2;
+            }
+
+            sensor::Sensor* get_sensor_momentary_reactive_import_l3()
+            {
+                return momentary_reactive_import_l3;
+            }
+            sensor::Sensor* get_sensor_momentary_reactive_export_l3()
+            {
+                return momentary_reactive_export_l3;
+            }
+
+            sensor::Sensor* get_sensor_voltage_l1()
+            {
+                return voltage_l1;
+            }
+            sensor::Sensor* get_sensor_voltage_l2()
+            {
+                return voltage_l2;
+            }
+            sensor::Sensor* get_sensor_voltage_l3()
+            {
+                return voltage_l3;
+            }
+
+            sensor::Sensor* get_sensor_current_l1()
+            {
+                return current_l1;
+            }
+            sensor::Sensor* get_sensor_current_l2()
+            {
+                return current_l2;
+            }
+            sensor::Sensor* get_sensor_current_l3()
+            {
+                return current_l3;
+            }
         };
     }
 }
